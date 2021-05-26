@@ -64,11 +64,8 @@ const Content: React.FC = () => {
             </SearchBar>
           </ArrowsSearchContainer>
           <Profile>
-            <img
-              src={neymarImg}
-              alt="user avatar"
-            ></img>
-            <span>Mateus Pandino</span>
+            <img src={neymarImg} alt="user avatar"></img>
+            <span>Satish Rajnale</span>
             <MdKeyboardArrowDown size={30} />
           </Profile>
         </FixedTopBar>
@@ -77,7 +74,7 @@ const Content: React.FC = () => {
       <ContentBody>
         <Category>
           <CategoryTitle>
-            <span>Shortcuts</span>
+            <span>Playlists</span>
             <div>
               <MdKeyboardArrowLeft color={'#aaa'} size={30} />
               <MdKeyboardArrowRight size={30} />
