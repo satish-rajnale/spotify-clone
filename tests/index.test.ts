@@ -40,4 +40,4 @@ describe("index.getNameCallback", () => {
     
         expect(callFunction).toThrow('callback is not a function')
     })
-})
+});
