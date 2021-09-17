@@ -12,7 +12,7 @@
     "jsx": "react",
     "sourceMap": true,
     "outDir": "./dist",
-    "strict": true ,
+    "strict": false ,
     "esModuleInterop": true,
   },
   "include": ["src/**/*", "electron/**/*"]
